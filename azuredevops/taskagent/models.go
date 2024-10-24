@@ -2554,7 +2554,7 @@ type VariableGroup struct {
 	// Gets or sets type of the variable group.
 	Type *string `json:"type,omitempty"`
 	// Gets or sets variables contained in the variable group.
-	Variables *map[string]interface{} `json:"variables,omitempty"`
+	Variables *map[string]map[string]interface{} `json:"variables,omitempty"`
 }
 
 // [Flags]
